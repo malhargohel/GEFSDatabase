@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31829.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEFSDatabase1", "GEFSDatabase1\GEFSDatabase1.csproj", "{329B60A8-83E8-4556-B4DC-E40EA0E9A2FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{329B60A8-83E8-4556-B4DC-E40EA0E9A2FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{329B60A8-83E8-4556-B4DC-E40EA0E9A2FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{329B60A8-83E8-4556-B4DC-E40EA0E9A2FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{329B60A8-83E8-4556-B4DC-E40EA0E9A2FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED86670D-09A1-414C-BC2A-3BE3479F1848}
+	EndGlobalSection
+EndGlobal
