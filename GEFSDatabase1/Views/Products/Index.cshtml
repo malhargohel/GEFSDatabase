@@ -58,10 +58,10 @@
                     @Html.DisplayFor(modelItem => item.Price)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Category.Name)
+                    @Html.DisplayFor(modelItem => item.Category)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Suppliers.Name)
+                    @Html.DisplayFor(modelItem => item.Supplier)
                 </td>
                 <td>
                     <a asp-action="Edit" asp-route-id="@item.ProductID">Edit</a> |

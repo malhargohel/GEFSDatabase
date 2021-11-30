@@ -20,10 +20,14 @@ namespace GEFSDatabase1.Models
 
         public string Price { get; set; }
 
+        public int CategoryID { get; set; }
+       
         public int Category { get; set; }
+            
+        public int SupplierID { get; set; }
 
         public int Supplier { get; set; }
 
-        //public Category Category { get; set; }
+        //public Category { get; set; }
     }
 }

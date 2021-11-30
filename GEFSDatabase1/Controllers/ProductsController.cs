@@ -103,7 +103,7 @@ namespace GEFSDatabase1.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoryID"] = new SelectList(_context.Category, "CategoryID", "CategoryID", Products.CategoryID);
+            ViewData["CategoryID"] = new SelectList(_context.Category, "CategoryID", "CategoryID", products.ProductID);
             return View(products);
         }
 
